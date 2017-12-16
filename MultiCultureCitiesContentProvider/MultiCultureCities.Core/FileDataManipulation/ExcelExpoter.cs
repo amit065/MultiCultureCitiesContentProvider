@@ -1,4 +1,5 @@
-﻿using MultiCultureCities.Model;
+﻿using MultiCultureCities.Core.Logger;
+using MultiCultureCities.Model;
 using System;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
@@ -77,7 +78,7 @@ namespace MultiCultureCities.Core.FileDataManipulation
             catch (Exception ex)
             {
                 Log.ExcpLogger(ex);
-                Console.WriteLine("Exception While Reading Data From File :" + ex.Message + "\t" + ex.GetType());
+                Console.WriteLine("Exception While Saving File  :" + ex.Message + "\t" + ex.GetType());
                 Console.ReadKey();
                 throw ex;
             }

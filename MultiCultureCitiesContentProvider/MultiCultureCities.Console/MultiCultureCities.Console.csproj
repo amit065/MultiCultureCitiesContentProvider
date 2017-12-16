@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C05C4EDA-2984-4ED9-A847-17DC0B957263}</ProjectGuid>
+    <ProjectGuid>{8771BC77-AEB1-4D7D-906A-330B7795E2C5}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>MultiCultureCities.Console</RootNamespace>
     <AssemblyName>MultiCultureCities.Console</AssemblyName>
@@ -47,16 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MultiCultureCities.Core\MultiCultureCities.Core.csproj">
-      <Project>{1e56a1cc-055c-4f86-9963-6f0b27f73a04}</Project>
-      <Name>MultiCultureCities.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MultiCultureCities.Model\MultiCultureCities.Model.csproj">
-      <Project>{c2e5eeee-4782-4126-8e4c-e73abebb7ced}</Project>
-      <Name>MultiCultureCities.Model</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
