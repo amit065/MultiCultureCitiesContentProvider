@@ -1,10 +1,8 @@
 ﻿using MultiCultureCities.Contract;
+using MultiCultureCities.Core.Logger;
+using MultiCultureCities.Model;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MultiCultureCities.Model;
 using System.IO;
 
 namespace MultiCultureCities.Core.ScriptGenerator
@@ -33,9 +31,14 @@ namespace MultiCultureCities.Core.ScriptGenerator
 
                 }
             }
-            catch
+            catch(Exception ex)
             {
-                throw new Exception("Failed to generate script");
+                Log.ExcpLogger(ex);
+
+                Console.WriteLine("Exception Related To Script Generation :" + ex.Message + "\t" + ex.GetType());
+
+                Console.ReadKey();
+
             }
         }
     }
