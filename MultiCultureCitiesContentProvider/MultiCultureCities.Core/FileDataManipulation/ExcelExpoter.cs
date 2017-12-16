@@ -54,13 +54,13 @@ namespace MultiCultureCities.Core.FileDataManipulation
                     workSheet.Cells[row, "F"] = city.IsEnabled;
                     workSheet.Cells[row, "G"] = city.IataCityCode;
                     workSheet.Cells[row, "H"] = city.FullTextColumn;
-                    workSheet.Cells[row, "I"] = city.US;
-                    workSheet.Cells[row, "J"] = city.ChineseTH;
-                    workSheet.Cells[row, "K"] = city.UK;
-                    workSheet.Cells[row, "L"] = city.BR;
-                    workSheet.Cells[row, "M"] = city.MX;
-                    workSheet.Cells[row, "N"] = city.CO;
-                    workSheet.Cells[row, "O"] = city.THth;
+                    workSheet.Cells[row, "I"] = city.USCulture;
+                    workSheet.Cells[row, "J"] = city.ChineseTHCulture;
+                    workSheet.Cells[row, "K"] = city.UKCulture;
+                    workSheet.Cells[row, "L"] = city.BRCulture;
+                    workSheet.Cells[row, "M"] = city.MXCulture;
+                    workSheet.Cells[row, "N"] = city.COCulture;
+                    workSheet.Cells[row, "O"] = city.THthCulture;
 
                     row++;
                 }

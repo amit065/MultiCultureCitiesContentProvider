@@ -20,7 +20,7 @@ namespace MultiCultureCities.Console
 
             ExcelFileReader excelFileReader = new ExcelFileReader(filePath);
 
-            var citiesData = excelFileReader.ImportPointOfInterestDataFromExcel(filePath);
+            var citiesData = excelFileReader.ImportCitiesDataExcel(filePath);
 
             //Console.WriteLine();
 
@@ -33,6 +33,14 @@ namespace MultiCultureCities.Console
             //Console.WriteLine();
 
             //Console.WriteLine("Exporting To Excel File");
+
+            //Console.WriteLine();
+
+            //Console.WriteLine("Generating Insert Script For Different Culture");
+
+            ScriptGeneratorUS scriptGeneratorUS = new ScriptGeneratorUS();
+
+            scriptGeneratorUS.GenerateInsertScript(citiesData);
         }
     }
 }

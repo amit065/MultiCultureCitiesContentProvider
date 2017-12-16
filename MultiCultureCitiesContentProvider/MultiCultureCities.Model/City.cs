@@ -24,13 +24,13 @@ namespace MultiCultureCities.Model
 
         public string FullTextColumn { get; set; }
 
-        public string US { get; set; }
-        public string ChineseTH { get; set; }
-        public string UK { get; set; }
-        public string BR { get; set; }
-        public string MX { get; set; }
-        public string CO { get; set; }
-        public string THth { get; set; }
+        public string USCulture { get; set; }
+        public string ChineseTHCulture { get; set; }
+        public string UKCulture { get; set; }
+        public string BRCulture { get; set; }
+        public string MXCulture { get; set; }
+        public string COCulture { get; set; }
+        public string THthCulture { get; set; }
 
     }
 }

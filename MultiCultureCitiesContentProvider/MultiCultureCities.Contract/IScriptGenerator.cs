@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 
 namespace MultiCultureCities.Contract
 {
-    public interface IFileReader
+    public interface IScriptGenerator
     {
-        List<City> ImportCitiesDataExcel(string filePath);
+        void GenerateInsertScript(List<City> cities);
     }
 }
-    

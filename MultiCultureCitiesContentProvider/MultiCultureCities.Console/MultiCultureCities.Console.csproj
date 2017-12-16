@@ -31,6 +31,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>MultiCultureCities.Console.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -47,6 +50,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MultiCultureCities.Core\MultiCultureCities.Core.csproj">
+      <Project>{1e56a1cc-055c-4f86-9963-6f0b27f73a04}</Project>
+      <Name>MultiCultureCities.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MultiCultureCities.Model\MultiCultureCities.Model.csproj">
+      <Project>{c2e5eeee-4782-4126-8e4c-e73abebb7ced}</Project>
+      <Name>MultiCultureCities.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

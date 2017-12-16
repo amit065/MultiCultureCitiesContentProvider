@@ -46,11 +46,11 @@
     <Compile Include="FileDataManipulation\ExcelExpoter.cs" />
     <Compile Include="FileDataManipulation\ExcelFileManipulator.cs" />
     <Compile Include="FileDataManipulation\ExcelFileReader.cs" />
+    <Compile Include="FileDataManipulation\ScriptGeneratorUS.cs" />
+    <Compile Include="Logger\Log.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Logger\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>

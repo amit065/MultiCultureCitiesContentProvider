@@ -17,7 +17,7 @@ namespace MultiCultureCities.Core.FileDataManipulation
             _filePath = filepath;
         }
 
-        public List<City> ImportPointOfInterestDataFromExcel(string filePath)
+        public List<City> ImportCitiesDataExcel(string filePath)
         {
             var count = 0;
             // Load Excel application
@@ -62,13 +62,13 @@ namespace MultiCultureCities.Core.FileDataManipulation
                                 IsEnabled = Convert.ToString((xlRange2.Cells[i, 6] as Excel.Range).Value2),
                                 IataCityCode = Convert.ToString((xlRange2.Cells[i, 7] as Excel.Range).Value2),
                                 FullTextColumn = (i == 1 ? "FullTextSearch" : excelManipulator.GetFullTextSearch((string)(xlRange2.Cells[i, 1] as Excel.Range).Value2, Convert.ToString((xlRange2.Cells[i, 7] as Excel.Range).Value2))),
-                                US = Convert.ToString((xlRange1.Cells[j, 1] as Excel.Range).Value2),
-                                ChineseTH= Convert.ToString((xlRange1.Cells[j, 2] as Excel.Range).Value2),
-                                UK= Convert.ToString((xlRange1.Cells[j, 3] as Excel.Range).Value2),
-                                BR= Convert.ToString((xlRange1.Cells[j, 4] as Excel.Range).Value2),
-                                MX= Convert.ToString((xlRange1.Cells[j, 5] as Excel.Range).Value2),
-                                CO= Convert.ToString((xlRange1.Cells[j, 6] as Excel.Range).Value2),
-                                THth= Convert.ToString((xlRange1.Cells[j, 7] as Excel.Range).Value2)
+                                USCulture = Convert.ToString((xlRange1.Cells[j, 1] as Excel.Range).Value2),
+                                ChineseTHCulture= Convert.ToString((xlRange1.Cells[j, 2] as Excel.Range).Value2),
+                                UKCulture= Convert.ToString((xlRange1.Cells[j, 3] as Excel.Range).Value2),
+                                BRCulture= Convert.ToString((xlRange1.Cells[j, 4] as Excel.Range).Value2),
+                                MXCulture= Convert.ToString((xlRange1.Cells[j, 5] as Excel.Range).Value2),
+                                COCulture= Convert.ToString((xlRange1.Cells[j, 6] as Excel.Range).Value2),
+                                THthCulture= Convert.ToString((xlRange1.Cells[j, 7] as Excel.Range).Value2)
 
                             });
                             break;
