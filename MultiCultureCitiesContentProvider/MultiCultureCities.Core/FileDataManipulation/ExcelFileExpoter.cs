@@ -7,7 +7,7 @@ using Excel = Microsoft.Office.Interop.Excel;
 
 namespace MultiCultureCities.Core.FileDataManipulation
 {
-    public class ExcelExpoter
+    public class ExcelFileExpoter
     {
         public bool ExportToExcel(List<City> cities)
         {

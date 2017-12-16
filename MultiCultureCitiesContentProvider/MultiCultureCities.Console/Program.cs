@@ -1,10 +1,6 @@
 ﻿using MultiCultureCities.Core.FileDataManipulation;
-using System;
-using System.Collections.Generic;
+using MultiCultureCities.Core.ScriptGenerator;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MultiCultureCities.Console
 {
@@ -26,7 +22,7 @@ namespace MultiCultureCities.Console
 
             //Console.WriteLine("Reading Data From File Is Completed ");
 
-            ExcelExpoter excelExpoter = new ExcelExpoter();
+            ExcelFileExpoter excelExpoter = new ExcelFileExpoter();
 
             excelExpoter.ExportToExcel(citiesData);
 
@@ -41,6 +37,30 @@ namespace MultiCultureCities.Console
             ScriptGeneratorUS scriptGeneratorUS = new ScriptGeneratorUS();
 
             scriptGeneratorUS.GenerateInsertScript(citiesData);
+
+            ScriptGeneratorUK scriptGeneratorUK = new ScriptGeneratorUK();
+
+            scriptGeneratorUK.GenerateInsertScript(citiesData);
+
+            ScriptGeneratorTH scriptGeneratorTH = new ScriptGeneratorTH();
+
+            scriptGeneratorTH.GenerateInsertScript(citiesData);
+
+            ScriptGeneratorMX scriptGeneratorMX = new ScriptGeneratorMX();
+
+            scriptGeneratorMX.GenerateInsertScript(citiesData);
+
+            ScriptGeneratorCO scriptGeneratorCO = new ScriptGeneratorCO();
+
+            scriptGeneratorCO.GenerateInsertScript(citiesData);
+
+            ScriptGeneratorChinese scriptGeneratorChinese = new ScriptGeneratorChinese();
+
+            scriptGeneratorChinese.GenerateInsertScript(citiesData);
+
+            ScriptGeneratorBR scriptGeneratorBR = new ScriptGeneratorBR();
+
+            scriptGeneratorBR.GenerateInsertScript(citiesData);
         }
     }
 }

@@ -43,10 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FileDataManipulation\ExcelExpoter.cs" />
+    <Compile Include="FileDataManipulation\ExcelFileExpoter.cs" />
     <Compile Include="FileDataManipulation\ExcelFileManipulator.cs" />
     <Compile Include="FileDataManipulation\ExcelFileReader.cs" />
-    <Compile Include="FileDataManipulation\ScriptGeneratorUS.cs" />
+    <Compile Include="ScriptGenerator\ScriptGeneratorBR.cs" />
+    <Compile Include="ScriptGenerator\ScriptGeneratorChinese.cs" />
+    <Compile Include="ScriptGenerator\ScriptGeneratorCO.cs" />
+    <Compile Include="ScriptGenerator\ScriptGeneratorMX.cs" />
+    <Compile Include="ScriptGenerator\ScriptGeneratorTH.cs" />
+    <Compile Include="ScriptGenerator\ScriptGeneratorUK.cs" />
+    <Compile Include="ScriptGenerator\ScriptGeneratorUS.cs" />
     <Compile Include="Logger\Log.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

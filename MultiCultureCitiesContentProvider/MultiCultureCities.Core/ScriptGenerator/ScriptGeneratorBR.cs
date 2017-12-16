@@ -14,7 +14,7 @@ namespace MultiCultureCities.Core.ScriptGenerator
             try
             {
                 // Define filename where to save the City insert script
-                using (StreamWriter writer = new StreamWriter(@"C:\Users\aprakash\Desktop\MultiCultureCity\InsertScriptForBR.txt", false))
+                using (StreamWriter writer = new StreamWriter(@"C:\Users\aprakash\Desktop\MultiCultureCityData\InsertScriptForBR.txt", false))
                 {
                     for (int i = 0; i < cities.Count; i++)
                     {
@@ -30,7 +30,10 @@ namespace MultiCultureCities.Core.ScriptGenerator
                     }
 
                 }
+                Console.WriteLine("Script Successfully Generated");
+                Console.ReadKey();
             }
+            
             catch (Exception ex)
             {
                 Log.ExcpLogger(ex);
