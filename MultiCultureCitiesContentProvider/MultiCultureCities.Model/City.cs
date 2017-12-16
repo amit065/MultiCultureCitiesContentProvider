@@ -23,5 +23,14 @@ namespace MultiCultureCities.Model
         public string IataCityCode { get; set; }
 
         public string FullTextColumn { get; set; }
+
+        public string US { get; set; }
+        public string ChineseTH { get; set; }
+        public string UK { get; set; }
+        public string BR { get; set; }
+        public string MX { get; set; }
+        public string CO { get; set; }
+        public string THth { get; set; }
+
     }
 }
