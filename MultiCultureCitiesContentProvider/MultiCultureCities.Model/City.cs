@@ -19,12 +19,17 @@
         public string FullTextColumn { get; set; }
 
         public string USCulture { get; set; }
-        public string ChineseTHCulture { get; set; }
-        public string UKCulture { get; set; }
-        public string BRCulture { get; set; }
-        public string MXCulture { get; set; }
-        public string COCulture { get; set; }
-        public string THthCulture { get; set; }
 
+        public string ChineseTHCulture { get; set; }
+
+        public string UKCulture { get; set; }
+
+        public string BRCulture { get; set; }
+
+        public string MXCulture { get; set; }
+
+        public string COCulture { get; set; }
+
+        public string THthCulture { get; set; }
     }
 }

@@ -33,7 +33,7 @@ namespace MultiCultureCities.Core.ScriptGenerator
             }
             catch (Exception ex)
             {
-                Log.ExcpLogger(ex);
+                Log.LogException(ex);
 
                 Console.WriteLine("Exception Related To Script Generation :" + ex.Message + "\t" + ex.GetType());
 

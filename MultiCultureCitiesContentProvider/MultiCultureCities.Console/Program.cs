@@ -12,11 +12,9 @@ namespace MultiCultureCities.Console
 
             var files = Directory.GetFiles(Directory.GetCurrentDirectory(), "MissingCities_Translated.xlsx");
 
-            var filePath = files[0];
+            ExcelFileReader excelFileReader = new ExcelFileReader(files[0]);
 
-            ExcelFileReader excelFileReader = new ExcelFileReader(filePath);
-
-            var citiesData = excelFileReader.ImportCitiesDataExcel(filePath);
+            var citiesData = excelFileReader.ImportCitiesDataExcel(files[0]);
 
             //Console.WriteLine();
 

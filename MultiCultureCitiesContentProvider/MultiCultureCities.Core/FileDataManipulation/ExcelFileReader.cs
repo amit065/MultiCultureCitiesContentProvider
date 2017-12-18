@@ -47,10 +47,10 @@ namespace MultiCultureCities.Core.FileDataManipulation
                 for (int i = 2; i <= row2; i++)
                 {
                     count++;
-                    for (int j= 2; j <= row1; j++)
+                    for (int j = 2; j <= row1; j++)
                     {
 
-                        if((Convert.ToString((xlRange2.Cells[i, 1] as Excel.Range).Value2 )== (Convert.ToString((xlRange1.Cells[j, 1] as Excel.Range).Value2))))
+                        if ((Convert.ToString((xlRange2.Cells[i, 1] as Excel.Range).Value2) == (Convert.ToString((xlRange1.Cells[j, 1] as Excel.Range).Value2))))
                         {
                             cities.Add(new City
                             {
@@ -63,13 +63,12 @@ namespace MultiCultureCities.Core.FileDataManipulation
                                 IataCityCode = Convert.ToString((xlRange2.Cells[i, 7] as Excel.Range).Value2),
                                 FullTextColumn = (i == 1 ? "FullTextSearch" : excelManipulator.GetFullTextSearch((string)(xlRange2.Cells[i, 1] as Excel.Range).Value2, Convert.ToString((xlRange2.Cells[i, 7] as Excel.Range).Value2))),
                                 USCulture = Convert.ToString((xlRange1.Cells[j, 1] as Excel.Range).Value2),
-                                ChineseTHCulture= Convert.ToString((xlRange1.Cells[j, 2] as Excel.Range).Value2),
-                                UKCulture= Convert.ToString((xlRange1.Cells[j, 3] as Excel.Range).Value2),
-                                BRCulture= Convert.ToString((xlRange1.Cells[j, 4] as Excel.Range).Value2),
-                                MXCulture= Convert.ToString((xlRange1.Cells[j, 5] as Excel.Range).Value2),
-                                COCulture= Convert.ToString((xlRange1.Cells[j, 6] as Excel.Range).Value2),
-                                THthCulture= Convert.ToString((xlRange1.Cells[j, 7] as Excel.Range).Value2)
-
+                                ChineseTHCulture = Convert.ToString((xlRange1.Cells[j, 2] as Excel.Range).Value2),
+                                UKCulture = Convert.ToString((xlRange1.Cells[j, 3] as Excel.Range).Value2),
+                                BRCulture = Convert.ToString((xlRange1.Cells[j, 4] as Excel.Range).Value2),
+                                MXCulture = Convert.ToString((xlRange1.Cells[j, 5] as Excel.Range).Value2),
+                                COCulture = Convert.ToString((xlRange1.Cells[j, 6] as Excel.Range).Value2),
+                                THthCulture = Convert.ToString((xlRange1.Cells[j, 7] as Excel.Range).Value2)
                             });
                             break;
                         }
@@ -83,7 +82,7 @@ namespace MultiCultureCities.Core.FileDataManipulation
             }
             catch (Exception ex)
             {
-                Log.ExcpLogger(ex);
+                Log.LogException(ex);
                 Console.WriteLine("Exception While Reading Data From File :" + ex.Message + "\t" + ex.GetType());
                 Console.ReadKey();
                 throw ex;
@@ -92,7 +91,6 @@ namespace MultiCultureCities.Core.FileDataManipulation
             {
                 // Quit Excel application
                 xlApp.Quit();
-
 
                 // Release COM objects ()
                 if (xlApp != null)
@@ -104,7 +102,6 @@ namespace MultiCultureCities.Core.FileDataManipulation
                 // Force garbage collector cleaning
                 GC.Collect();
             }
-
         }
     }
 }

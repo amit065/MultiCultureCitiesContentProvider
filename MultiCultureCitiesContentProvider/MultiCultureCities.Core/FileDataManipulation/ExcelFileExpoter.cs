@@ -77,7 +77,7 @@ namespace MultiCultureCities.Core.FileDataManipulation
             }
             catch (Exception ex)
             {
-                Log.ExcpLogger(ex);
+                Log.LogException(ex);
                 Console.WriteLine("Exception While Saving File  :" + ex.Message + "\t" + ex.GetType());
                 Console.ReadKey();
                 throw ex;

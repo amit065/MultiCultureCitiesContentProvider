@@ -6,9 +6,7 @@
         {
             string textSearch = IataCityCode != null ? IataCityCode : string.Empty;
 
-            var CityNameloweCase = cityName.ToLower();
-
-            foreach (var part in CityNameloweCase.Split(' '))
+            foreach (var part in cityName.ToLower().Split(' '))
             {
                 if (part.Length > 3)
                 {
