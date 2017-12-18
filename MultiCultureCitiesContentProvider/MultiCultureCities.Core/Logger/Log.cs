@@ -18,9 +18,9 @@ namespace MultiCultureCities.Core.Logger
             message += "===================================**END**==============================";
             message += Environment.NewLine;
 
-            string fileName = string.Format(@"{0}\MultiCultureCitiesLog.txt", Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory));
+            string filePath = string.Format(@"{0}\..\MultiCultureCities.Core\SolutionFile\LogFile", Path.GetDirectoryName(Path.GetDirectoryName(Directory.GetCurrentDirectory())));
 
-            using (StreamWriter writer = new StreamWriter(fileName, true))
+            using (StreamWriter writer = new StreamWriter(filePath + @"\\MultiCultureCitiesLog.txt", true))
             {
                 writer.WriteLine(message);
                 writer.WriteLine();
@@ -37,9 +37,9 @@ namespace MultiCultureCities.Core.Logger
             message += Environment.NewLine;
             message += "===================================**END**==============================";
 
-            string fileName = string.Format(@"{0}\MultiCultureCitiesLog.txt", Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory));
+            string filePath = string.Format(@"{0}\..\MultiCultureCities.Core\SolutionFile\LogFile", Path.GetDirectoryName(Path.GetDirectoryName(Directory.GetCurrentDirectory())));
 
-            using (StreamWriter writer = new StreamWriter(fileName, true))
+            using (StreamWriter writer = new StreamWriter(filePath + @"\\MultiCultureCitiesLog.txt", true))
             {
                 writer.WriteLine(message);
                 writer.WriteLine();

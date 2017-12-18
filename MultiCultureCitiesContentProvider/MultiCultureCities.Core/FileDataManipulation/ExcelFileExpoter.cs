@@ -2,6 +2,7 @@
 using MultiCultureCities.Model;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Runtime.InteropServices;
 using Excel = Microsoft.Office.Interop.Excel;
 
@@ -69,10 +70,11 @@ namespace MultiCultureCities.Core.FileDataManipulation
                 workSheet.Range["A1"].AutoFormat(Excel.XlRangeAutoFormat.xlRangeAutoFormatClassic1);
 
                 // Define filename
-                string fileName = string.Format(@"{0}\CityMultiCultureData.xlsx", Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory));
+
+                string filesPath = string.Format(@"{0}\..\MultiCultureCities.Core\SolutionFile\OutputFile\CityMultiCultureData.xlsx", Path.GetDirectoryName(Path.GetDirectoryName(Directory.GetCurrentDirectory())));
 
                 // Save this data as a file
-                workSheet.SaveAs(fileName);
+                workSheet.SaveAs(filesPath);
                 return true;
             }
             catch (Exception ex)

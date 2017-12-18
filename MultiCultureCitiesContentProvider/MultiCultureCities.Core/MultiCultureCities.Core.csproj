@@ -57,7 +57,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="SolutionFile\TranslationFile\MissingCities_Translated.xlsx" />
+    <None Include="SolutionFile\InputFile\MissingCities_Translated.xlsx" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
@@ -74,6 +74,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="SolutionFile\LogFile\" />
+    <Folder Include="SolutionFile\OutputFile\" />
     <Folder Include="SolutionFile\ScriptFiles\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

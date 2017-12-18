@@ -14,9 +14,9 @@ namespace MultiCultureCities.Host
             {
                 Console.WriteLine("Reading Point Of Interest Coordinates data from file.....");
 
-                string wanted_path = string.Format(@"{0}\..", Path.GetDirectoryName(Path.GetDirectoryName(Directory.GetCurrentDirectory())));
+                string filePath = string.Format(@"{0}\..", Path.GetDirectoryName(Path.GetDirectoryName(Directory.GetCurrentDirectory())));
 
-                var files = Directory.GetFiles(wanted_path + @"\MultiCultureCities.Core\SolutionFile\TranslationFile\", @"MissingCities_Translated.xlsx");
+                var files = Directory.GetFiles(filePath + @"\MultiCultureCities.Core\SolutionFile\InputFile\", @"MissingCities_Translated.xlsx");
 
                 ExcelFileReader excelFileReader = new ExcelFileReader(files[0]);
 
