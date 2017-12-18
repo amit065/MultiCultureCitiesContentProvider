@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8771BC77-AEB1-4D7D-906A-330B7795E2C5}</ProjectGuid>
+    <ProjectGuid>{3F558F46-E724-4361-9618-20AF565C13AA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MultiCultureCities.Console</RootNamespace>
-    <AssemblyName>MultiCultureCities.Console</AssemblyName>
+    <RootNamespace>MultiCultureCities.Host</RootNamespace>
+    <AssemblyName>MultiCultureCities.Host</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -30,9 +30,6 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>MultiCultureCities.Console.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

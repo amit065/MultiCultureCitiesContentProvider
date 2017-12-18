@@ -56,7 +56,9 @@
     <Compile Include="Logger\Log.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="SolutionFile\TranslationFile\MissingCities_Translated.xlsx" />
+  </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
@@ -69,6 +71,10 @@
       <Project>{c2e5eeee-4782-4126-8e4c-e73abebb7ced}</Project>
       <Name>MultiCultureCities.Model</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SolutionFile\LogFile\" />
+    <Folder Include="SolutionFile\ScriptFiles\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

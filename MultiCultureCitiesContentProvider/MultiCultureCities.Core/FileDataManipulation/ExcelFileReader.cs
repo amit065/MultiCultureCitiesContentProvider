@@ -44,10 +44,10 @@ namespace MultiCultureCities.Core.FileDataManipulation
                 List<City> cities = new List<City>();
                 ExcelFileManipulator excelManipulator = new ExcelFileManipulator();
 
-                for (int i = 2; i <= row2; i++)
+                for (int i = 2; i <= row2/100; i++)
                 {
                     count++;
-                    for (int j = 2; j <= row1; j++)
+                    for (int j = 2; j <= row1/100; j++)
                     {
 
                         if ((Convert.ToString((xlRange2.Cells[i, 1] as Excel.Range).Value2) == (Convert.ToString((xlRange1.Cells[j, 1] as Excel.Range).Value2))))

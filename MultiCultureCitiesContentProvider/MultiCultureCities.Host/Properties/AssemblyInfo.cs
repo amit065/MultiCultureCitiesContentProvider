@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MultiCultureCities.Console")]
+[assembly: AssemblyTitle("MultiCultureCities.Host")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("MultiCultureCities.Console")]
+[assembly: AssemblyProduct("MultiCultureCities.Host")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("8771bc77-aeb1-4d7d-906a-330b7795e2c5")]
+[assembly: Guid("3f558f46-e724-4361-9618-20af565c13aa")]
 
 // Version information for an assembly consists of the following four values:
 //
