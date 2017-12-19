@@ -44,10 +44,10 @@ namespace MultiCultureCities.Core.FileDataManipulation
                 List<City> cities = new List<City>();
                 ExcelFileManipulator excelManipulator = new ExcelFileManipulator();
 
-                for (int i = 2; i <= row2; i++)
+                for (int i = 2; i <= row2/100; i++)
                 {
                     count++;
-                    for (int j = 2; j <= row1; j++)
+                    for (int j = 2; j <= row1/100; j++)
                     {
 
                         if ((Convert.ToString((xlRange2.Cells[i, 1] as Excel.Range).Value2) == (Convert.ToString((xlRange1.Cells[j, 1] as Excel.Range).Value2))))
@@ -61,7 +61,7 @@ namespace MultiCultureCities.Core.FileDataManipulation
                                 Longitude = Convert.ToString((xlRange2.Cells[i, 5] as Excel.Range).Value2),
                                 IsEnabled = Convert.ToString((xlRange2.Cells[i, 6] as Excel.Range).Value2),
                                 IataCityCode = Convert.ToString((xlRange2.Cells[i, 7] as Excel.Range).Value2),
-                                FullTextColumn = (i == 1 ? "FullTextSearch" : excelManipulator.GetFullTextSearch((string)(xlRange2.Cells[i, 1] as Excel.Range).Value2, Convert.ToString((xlRange2.Cells[i, 7] as Excel.Range).Value2))),
+                                FullTextColumn =  excelManipulator.GetFullTextSearch((string)(xlRange2.Cells[i, 1] as Excel.Range).Value2, Convert.ToString((xlRange2.Cells[i, 7] as Excel.Range).Value2)),
                                 USCulture = Convert.ToString((xlRange1.Cells[j, 1] as Excel.Range).Value2),
                                 ChineseTHCulture = Convert.ToString((xlRange1.Cells[j, 2] as Excel.Range).Value2),
                                 UKCulture = Convert.ToString((xlRange1.Cells[j, 3] as Excel.Range).Value2),

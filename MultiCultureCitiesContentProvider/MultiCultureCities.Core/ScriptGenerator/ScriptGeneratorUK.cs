@@ -21,11 +21,11 @@ namespace MultiCultureCities.Core.ScriptGenerator
                     for (int i = 0; i < cities.Count; i++)
                     {
                         writer.WriteLine("IF NOT EXISTS");
-                        writer.WriteLine("(Select * from Cities where CityName = '" + cities[i].CityName.Trim() + "' , '" + "StateCode = '" + cities[i].StateCode.Trim() + "' , '" + "AND CountryCode = '" + cities[i].CountryCode.Trim() + ")");
+                        writer.WriteLine("(Select * from Cities where CityName = '" + cities[i].UKCulture.Trim() + "' , StateCode = '" + cities[i].StateCode.Trim() + "' , AND CountryCode = '" + cities[i].CountryCode.Trim() + ")");
                         writer.WriteLine("Begin");
                         writer.WriteLine("Insert into Cities (CityName, StateCode, CountryCode, Latitude, Longitude, IsEnabled, IataCityCode, FullTextColumn) values('" + cities[i].UKCulture.Trim() + "' , '" + cities[i].StateCode.Trim() + "' , '"
-                                        + cities[i].CountryCode.Trim() + "' , '" + cities[i].Latitude.Trim() + "' , '" + cities[i].Longitude.Trim() + "' , '" + cities[i].IsEnabled.Trim() + "' , '" + (cities[i].IataCityCode != null ? cities[i].IataCityCode.Trim() : cities[i].IataCityCode = "NULL".Trim())
-                                        + "' , '" + cities[i].FullTextColumn.Trim() + "');");
+                                          + cities[i].CountryCode.Trim() + "' , " + cities[i].Latitude.Trim() + " , " + cities[i].Longitude.Trim() + " , " + cities[i].IsEnabled.Trim() + " , " + (cities[i].IataCityCode != "NULL" ? "'" + cities[i].IataCityCode.Trim() + "'" : cities[i].IataCityCode)
+                                          + " , '" + cities[i].FullTextColumn.Trim() + "');");
                         writer.WriteLine("End");
                         writer.WriteLine();
 

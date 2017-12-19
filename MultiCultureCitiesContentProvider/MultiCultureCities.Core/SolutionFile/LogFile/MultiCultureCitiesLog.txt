@@ -3,3 +3,247 @@
 Message: File Data Fetched Sucessfully
 ===================================**END**==============================
 
+==>>  Time: 18/12/2017 01:06:38 PM
+-----------------------------------**START**-------------------------------------
+Message: File Data Fetched Sucessfully
+===================================**END**==============================
+
+==>>  Time: 18/12/2017 03:54:29 PM
+-----------------------------------**START**-------------------------------------
+Message: File Data Fetched Sucessfully
+===================================**END**==============================
+
+==>>  Time: 18/12/2017 04:07:24 PM
+-----------------------------------**START**-------------------------------------
+Message: File Data Fetched Sucessfully
+===================================**END**==============================
+
+==>>  Time: 18/12/2017 04:09:41 PM
+-----------------------------------**START**-------------------------------------
+Message: File Data Fetched Sucessfully
+===================================**END**==============================
+
+==>>  Time: 18/12/2017 04:15:01 PM
+-----------------------------------**START**-------------------------------------
+Message: File Data Fetched Sucessfully
+===================================**END**==============================
+
+==>>  Time: 18/12/2017 04:16:44 PM
+-----------------------------------**START**-------------------------------------
+Message: File Data Fetched Sucessfully
+===================================**END**==============================
+
+==>>  Time: 18/12/2017 04:17:10 PM
+-----------------------------------**START**-------------------------------------
+Message: File Data Fetched Sucessfully
+===================================**END**==============================
+
+==>>  Time: 18/12/2017 04:17:43 PM
+-----------------------------------**START**-------------------------------------
+Message: File Data Fetched Sucessfully
+===================================**END**==============================
+
+==>>  Time: 18/12/2017 04:18:30 PM
+-----------------------------------**START**-------------------------------------
+Message: File Data Fetched Sucessfully
+===================================**END**==============================
+
+==>>  Time: 18/12/2017 04:20:04 PM
+-----------------------------------**START**-------------------------------------
+Message: File Data Fetched Sucessfully
+===================================**END**==============================
+
+==>>  Time: 18/12/2017 04:22:36 PM
+-----------------------------------**START**-------------------------------------
+Message: File Data Fetched Sucessfully
+===================================**END**==============================
+
+==>>  Time: 18/12/2017 04:27:28 PM
+-----------------------------------**START**-------------------------------------
+Message: File Data Fetched Sucessfully
+===================================**END**==============================
+
+==>>  Time: 18/12/2017 04:28:09 PM
+-----------------------------------**START**-------------------------------------
+Message: File Data Fetched Sucessfully
+===================================**END**==============================
+
+==>>  Time: 18/12/2017 04:28:29 PM
+-----------------------------------**START**-------------------------------------
+Message: File Data Fetched Sucessfully
+===================================**END**==============================
+
+==>>  Time: 18/12/2017 04:30:06 PM
+-----------------------------------**START**-------------------------------------
+Message: File Data Fetched Sucessfully
+===================================**END**==============================
+
+==>>  Time: 18/12/2017 04:31:57 PM
+-----------------------------------**START**-------------------------------------
+Message: File Data Fetched Sucessfully
+===================================**END**==============================
+
+==>>  Time: 18/12/2017 04:35:27 PM
+-----------------------------------**START**-------------------------------------
+Message: File Data Fetched Sucessfully
+===================================**END**==============================
+
+==>>  Time: 18/12/2017 04:35:53 PM
+-----------------------------------**START**-------------------------------------
+Message: File Data Fetched Sucessfully
+===================================**END**==============================
+
+==>>  Time: 18/12/2017 04:40:12 PM
+-----------------------------------**START**-------------------------------------
+Message: File Data Fetched Sucessfully
+===================================**END**==============================
+
+==>>  Time: 18/12/2017 04:40:46 PM
+-----------------------------------**START**-------------------------------------
+Message: File Data Fetched Sucessfully
+===================================**END**==============================
+
+==>>  Time: 18/12/2017 04:42:25 PM
+-----------------------------------**START**-------------------------------------
+Message: File Data Fetched Sucessfully
+===================================**END**==============================
+
+==>>  Time: 18/12/2017 04:47:42 PM
+-----------------------------------**START**-------------------------------------
+Message: File Data Fetched Sucessfully
+===================================**END**==============================
+
+==>>  Time: 18/12/2017 04:48:54 PM
+-----------------------------------**START**-------------------------------------
+Message: File Data Fetched Sucessfully
+===================================**END**==============================
+
+==>>  Time: 18/12/2017 05:05:57 PM
+-----------------------------------**START**-------------------------------------
+Message: File Data Fetched Sucessfully
+===================================**END**==============================
+
+==>>  Time: 18/12/2017 05:06:26 PM
+-----------------------------------**START**-------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at MultiCultureCities.Core.ScriptGenerator.ScriptGeneratorUS.GenerateInsertScript(List`1 cities) in E:\MultiCultureCity\MultiCultureCitiesContentProvider\MultiCultureCitiesContentProvider\MultiCultureCities.Core\ScriptGenerator\ScriptGeneratorUS.cs:line 26
+===================================**END**==============================
+
+
+==>>  Time: 18/12/2017 05:07:05 PM
+-----------------------------------**START**-------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at MultiCultureCities.Core.ScriptGenerator.ScriptGeneratorUK.GenerateInsertScript(List`1 cities) in E:\MultiCultureCity\MultiCultureCitiesContentProvider\MultiCultureCitiesContentProvider\MultiCultureCities.Core\ScriptGenerator\ScriptGeneratorUK.cs:line 26
+===================================**END**==============================
+
+
+==>>  Time: 18/12/2017 05:07:09 PM
+-----------------------------------**START**-------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at MultiCultureCities.Core.ScriptGenerator.ScriptGeneratorTH.GenerateInsertScript(List`1 cities) in E:\MultiCultureCity\MultiCultureCitiesContentProvider\MultiCultureCitiesContentProvider\MultiCultureCities.Core\ScriptGenerator\ScriptGeneratorTH.cs:line 26
+===================================**END**==============================
+
+
+==>>  Time: 18/12/2017 05:07:10 PM
+-----------------------------------**START**-------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at MultiCultureCities.Core.ScriptGenerator.ScriptGeneratorMX.GenerateInsertScript(List`1 cities) in E:\MultiCultureCity\MultiCultureCitiesContentProvider\MultiCultureCitiesContentProvider\MultiCultureCities.Core\ScriptGenerator\ScriptGeneratorMX.cs:line 26
+===================================**END**==============================
+
+
+==>>  Time: 18/12/2017 05:07:10 PM
+-----------------------------------**START**-------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at MultiCultureCities.Core.ScriptGenerator.ScriptGeneratorCO.GenerateInsertScript(List`1 cities) in E:\MultiCultureCity\MultiCultureCitiesContentProvider\MultiCultureCitiesContentProvider\MultiCultureCities.Core\ScriptGenerator\ScriptGeneratorCO.cs:line 26
+===================================**END**==============================
+
+
+==>>  Time: 18/12/2017 05:07:11 PM
+-----------------------------------**START**-------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at MultiCultureCities.Core.ScriptGenerator.ScriptGeneratorChinese.GenerateInsertScript(List`1 cities) in E:\MultiCultureCity\MultiCultureCitiesContentProvider\MultiCultureCitiesContentProvider\MultiCultureCities.Core\ScriptGenerator\ScriptGeneratorChinese.cs:line 26
+===================================**END**==============================
+
+
+==>>  Time: 18/12/2017 05:08:58 PM
+-----------------------------------**START**-------------------------------------
+Message: File Data Fetched Sucessfully
+===================================**END**==============================
+
+==>>  Time: 18/12/2017 05:09:03 PM
+-----------------------------------**START**-------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at MultiCultureCities.Core.ScriptGenerator.ScriptGeneratorUS.GenerateInsertScript(List`1 cities) in E:\MultiCultureCity\MultiCultureCitiesContentProvider\MultiCultureCitiesContentProvider\MultiCultureCities.Core\ScriptGenerator\ScriptGeneratorUS.cs:line 26
+===================================**END**==============================
+
+
+==>>  Time: 18/12/2017 05:09:14 PM
+-----------------------------------**START**-------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at MultiCultureCities.Core.ScriptGenerator.ScriptGeneratorUK.GenerateInsertScript(List`1 cities) in E:\MultiCultureCity\MultiCultureCitiesContentProvider\MultiCultureCitiesContentProvider\MultiCultureCities.Core\ScriptGenerator\ScriptGeneratorUK.cs:line 26
+===================================**END**==============================
+
+
+==>>  Time: 18/12/2017 05:09:14 PM
+-----------------------------------**START**-------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at MultiCultureCities.Core.ScriptGenerator.ScriptGeneratorTH.GenerateInsertScript(List`1 cities) in E:\MultiCultureCity\MultiCultureCitiesContentProvider\MultiCultureCitiesContentProvider\MultiCultureCities.Core\ScriptGenerator\ScriptGeneratorTH.cs:line 26
+===================================**END**==============================
+
+
+==>>  Time: 18/12/2017 05:09:14 PM
+-----------------------------------**START**-------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at MultiCultureCities.Core.ScriptGenerator.ScriptGeneratorMX.GenerateInsertScript(List`1 cities) in E:\MultiCultureCity\MultiCultureCitiesContentProvider\MultiCultureCitiesContentProvider\MultiCultureCities.Core\ScriptGenerator\ScriptGeneratorMX.cs:line 26
+===================================**END**==============================
+
+
+==>>  Time: 18/12/2017 05:09:14 PM
+-----------------------------------**START**-------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at MultiCultureCities.Core.ScriptGenerator.ScriptGeneratorCO.GenerateInsertScript(List`1 cities) in E:\MultiCultureCity\MultiCultureCitiesContentProvider\MultiCultureCitiesContentProvider\MultiCultureCities.Core\ScriptGenerator\ScriptGeneratorCO.cs:line 26
+===================================**END**==============================
+
+
+==>>  Time: 18/12/2017 05:10:29 PM
+-----------------------------------**START**-------------------------------------
+Message: File Data Fetched Sucessfully
+===================================**END**==============================
+
+==>>  Time: 18/12/2017 05:11:49 PM
+-----------------------------------**START**-------------------------------------
+Message: File Data Fetched Sucessfully
+===================================**END**==============================
+
+==>>  Time: 18/12/2017 05:12:44 PM
+-----------------------------------**START**-------------------------------------
+Message: File Data Fetched Sucessfully
+===================================**END**==============================
+
+==>>  Time: 18/12/2017 05:13:18 PM
+-----------------------------------**START**-------------------------------------
+Message: File Data Fetched Sucessfully
+===================================**END**==============================
+
+==>>  Time: 18/12/2017 05:15:18 PM
+-----------------------------------**START**-------------------------------------
+Message: File Data Fetched Sucessfully
+===================================**END**==============================
+
+==>>  Time: 18/12/2017 05:15:21 PM
+-----------------------------------**START**-------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at MultiCultureCities.Core.ScriptGenerator.ScriptGeneratorChinese.GenerateInsertScript(List`1 cities) in E:\MultiCultureCity\MultiCultureCitiesContentProvider\MultiCultureCitiesContentProvider\MultiCultureCities.Core\ScriptGenerator\ScriptGeneratorChinese.cs:line 27
+===================================**END**==============================
+
+
+==>>  Time: 18/12/2017 05:15:41 PM
+-----------------------------------**START**-------------------------------------
+Message: File Data Fetched Sucessfully
+===================================**END**==============================
+
+==>>  Time: 18/12/2017 05:18:26 PM
+-----------------------------------**START**-------------------------------------
+Message: File Data Fetched Sucessfully
+===================================**END**==============================
+

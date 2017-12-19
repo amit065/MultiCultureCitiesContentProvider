@@ -38,33 +38,33 @@ namespace MultiCultureCities.Host
 
                 Console.WriteLine("Generating Insert Script For Different Culture");
 
-                ScriptGeneratorUS scriptGeneratorUS = new ScriptGeneratorUS();
+                //ScriptGeneratorUS scriptGeneratorUS = new ScriptGeneratorUS();
 
-                scriptGeneratorUS.GenerateInsertScript(citiesData);
+                //scriptGeneratorUS.GenerateInsertScript(citiesData);
 
-                ScriptGeneratorUK scriptGeneratorUK = new ScriptGeneratorUK();
+                //ScriptGeneratorUK scriptGeneratorUK = new ScriptGeneratorUK();
 
-                scriptGeneratorUK.GenerateInsertScript(citiesData);
+                //scriptGeneratorUK.GenerateInsertScript(citiesData);
 
-                ScriptGeneratorTH scriptGeneratorTH = new ScriptGeneratorTH();
+                //ScriptGeneratorTH scriptGeneratorTH = new ScriptGeneratorTH();
 
-                scriptGeneratorTH.GenerateInsertScript(citiesData);
+                //scriptGeneratorTH.GenerateInsertScript(citiesData);
 
-                ScriptGeneratorMX scriptGeneratorMX = new ScriptGeneratorMX();
+                //ScriptGeneratorMX scriptGeneratorMX = new ScriptGeneratorMX();
 
-                scriptGeneratorMX.GenerateInsertScript(citiesData);
+                //scriptGeneratorMX.GenerateInsertScript(citiesData);
 
-                ScriptGeneratorCO scriptGeneratorCO = new ScriptGeneratorCO();
+                //ScriptGeneratorCO scriptGeneratorCO = new ScriptGeneratorCO();
 
-                scriptGeneratorCO.GenerateInsertScript(citiesData);
+                //scriptGeneratorCO.GenerateInsertScript(citiesData);
 
                 ScriptGeneratorChinese scriptGeneratorChinese = new ScriptGeneratorChinese();
 
                 scriptGeneratorChinese.GenerateInsertScript(citiesData);
 
-                ScriptGeneratorBR scriptGeneratorBR = new ScriptGeneratorBR();
+                //ScriptGeneratorBR scriptGeneratorBR = new ScriptGeneratorBR();
 
-                scriptGeneratorBR.GenerateInsertScript(citiesData);
+               // scriptGeneratorBR.GenerateInsertScript(citiesData);
             }
             catch (Exception ex)
             {
